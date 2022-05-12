@@ -9,7 +9,8 @@ This tutorial can be accessed through the following google colab notebook: https
 * Having the yolov5 trained model weights as .pt file.
 
 ## Next 
-* Integrate metrics such as hardness and other available from Fifty-one
+* Integrate metrics such as object mkistakeness (missing ground truth boxes based on model predictions) and other available from Fifty-one
+* Integarte LabelBox for relabelling mistakes
 
 ## Links
 * https://voxel51.com/docs/fiftyone/user_guide/basics.html
