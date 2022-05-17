@@ -15,3 +15,7 @@ This tutorial can be accessed through the following google colab notebook: https
 ## Links
 * https://voxel51.com/docs/fiftyone/user_guide/basics.html
 * https://voxel51.com/docs/fiftyone/tutorials/evaluate_detections.html
+
+## Known Erorrs
+* ServiceListenTimeout: fiftyone.core.service.ServerService failed to bind to port 5151 
+    * Just restart the runtime or try with GPU/TPU based runtime 
