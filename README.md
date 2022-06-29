@@ -1,4 +1,7 @@
 # FiftyOne-YOLOv5-tutorial + Re-labeling images with Labelbox tool
+
+![alt text](https://github.com/MadanMl/Fiftyone-yolov5-tutorial/blob/main/overview.png)
+
 A repo containing the starting code/dataset (from roboflow.ai) for visualizing the pred and ground truth together in Voxel-51. 
 This notebook can be used to view predictions with different confidence values which are extracted through trained model .pt file.
 For visualizing the predictions and ground truth please follow the tutorial in colab notebook by running all cells sequentially.
@@ -19,4 +22,5 @@ Support for correcting bounding box mistakes is also added to the colab Notebook
 
 ## Known Erorrs
 * ServiceListenTimeout: fiftyone.core.service.ServerService failed to bind to port 5151 
-    * Just restart the runtime or try with GPU/TPU based runtime 
+    * Just restart the runtime or try with GPU/TPU based runtime
+    * or use older version of fiftyone installtion when working in colab
